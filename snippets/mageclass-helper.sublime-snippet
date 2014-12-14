@@ -1,0 +1,32 @@
+<snippet>
+    <description>Magento Class</description>
+    <tabTrigger>mageclass,helper</tabTrigger>
+    <content><![CDATA[
+<?php
+/**
+ * Magento ${1/^[^_]+_([^_]+)$/$1/}
+ *
+ * @category    ${1/^([^_]+)_[^_]+$/$1/}
+ * @package     ${1:${0/^.*\/app\/code\/(?:core|community|local)\/([^\/]+)\/([^\/]+)\/(?:[^\/]+\/)*[^\/]+\.php$/\u$1_\u$2/}}
+ * @copyright   ${5:Copyright (c) 2014 MageGyver. (http://www.magegyver.de)}
+ */
+
+/**
+ * ${8:Class Description}
+ *
+ * @category    ${1/^([^_]+)_[^_]+$/$1/}
+ * @package     ${1}
+ * @author      ${6:MageGyver Magento Team <magento@magegyver.de>}
+ * @copyright   ${5}
+ * @version     ${7:1.0.0}
+ */
+class ${1}${2:${0/(?:^.*\/app\/code\/(?:core|community|local)\/(?:[^\/]+\/){2}(?:controllers\/)?|\G)([^\/\.]+(?=\/|\.php$))(?:\.php$)?(?:\/|\.php$|(?R))/_\u$1/g}}
+    extends Mage_Core_Helper_Abstract
+{
+    $11
+}
+${99999:/**
+ * REMOVE THIS: ${0:$TM_FILEPATH}}
+ */
+]]></content>
+</snippet>
