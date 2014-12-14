@@ -3,7 +3,8 @@ Magento Snippets for Sublime Text
 
 Snippets for daily work with Magento in Sublime Text (www.sublimetext.com/).
 
-Coming soon: blogpost on www.magegyver.de:
+See also the blogpost on www.magegyver.de:
+* http://www.magegyver.de/mageclass-sublime-text-snippet-fuer-magento-klassen/ (German)
 
 ## Magento Class (`mageclass`)
 
